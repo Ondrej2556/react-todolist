@@ -9,7 +9,7 @@ function App() {
   const [newTask, setNewTask] = useState("");
   const [todoList, setTodoList] = useState([]);
 
-  const storeNewTask =(e)=>{
+  const storeNewTask =()=>{
     
     let form =document.querySelector('#todoList');
     form.firstElementChild.value = "";
